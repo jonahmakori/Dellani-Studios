@@ -11,12 +11,34 @@ body{
   background-size: cover;
   color: ghostwhite;
 }
-.home>p,img,h1{
-padding-top: 6%;
+.homepage{
+  padding-bottom: 0%;
 }
-.mse{
-padding-top:8%;
+.homepage>p,img,h1{ 
+  padding-top: 6.5%;
 }
+.mse {
+  padding-top: 12%;
+  padding-bottom: 0%;
+  animation: mouse 3s infinite;
+  top: 50vh; 
+}
+@keyframes mouse {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .services{
   background-image: url("backgrounds/s_image.jpg");
   background-repeat: no-repeat;
@@ -28,6 +50,16 @@ padding-top:8%;
 }
 .port{
   padding-bottom: 10%;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  color: black;
+  font-size: 1.3em;
+  border: 3px solid white;
+  padding:20px 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .pic{
   display: flex;
@@ -63,4 +95,20 @@ color:white;
 }
 ::placeholder{
 color: white;
+}
+.portfolio:hover {
+  opacity: 0.3;
+  transform: scale(1.1);
+  transition: opacity 0.5s ease-out;
+}
+.whatWeDo {
+  display: none;
+}
+.pointer {
+  cursor: pointer;
+}
+.pointer:hover {
+  transform: scale(0.8);
+  box-shadow: 5px 10px 8px 10px #888888;
+  border-radius: 20%;
 }
