@@ -1,6 +1,6 @@
 function validateForm() {
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
+  var name = document.getElementById("mce-NAME").value;
+  var email = document.getElementById("mce-EMAIL").value;
   if (name == "") {
     alert("please input in your name");
     return false;
@@ -8,8 +8,7 @@ function validateForm() {
     alert("Please input in your name and email");
     return false;
   } else {
-    alert(
-      name +
+    alert(name +
       ", we have received your message. Thank you for reaching out to us."
     );
   }
