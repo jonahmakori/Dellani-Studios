@@ -107,3 +107,8 @@ color: white;
 .pointer {
   cursor: pointer;
 }
+.pointer:hover {
+  transform: scale(0.8);
+  box-shadow: 5px 10px 8px 10px #888888;
+  border-radius: 20%;
+}
