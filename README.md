@@ -10,25 +10,38 @@
 - Licence
 - Contacts
 - Author
-# THE AKAN-SYSTEM OF NAMING IN GHANA
+# DELANI STUDIOS
 # DESCRIPTION
-- This website is about how the naming of the new-born      babies in Ghana was determined. It was simply by          inputting your birth details and the system calculates    the day you were born and the Akan-name depending on      the gender.
+- The website was based on the skills of the recreation of the alredy created one ,Whereby on submitt it was supposed to give you a feedback. 
 ## Deployment    
-- To view the website directly<a href="https://jonahmakori.github.io/Akan-Names-BirthDay/"><i>Click Here</i></a>
-- To view the code on github <a href="https://github.com/jonahmakori/Akan-Names-BirthDay"><i>Click Here</i></a>
+- To view the website directly<a href="https://jonahmakori.github.io/Dellani-Studios/"><i>Click Here</i></a>
+- To view the code on github <a href="https://github.com/jonahmakori/Dellani-Studios"><i>Click Here</i></a>
 # BDD
-- The website will require a user to fill out information   about his date of birth and the century he was was        born. The application calculates the day of the week      the user was born and outputs it. One will be required    to choose his gender and then click on the submit         button in order to generate his/her Akan name. The        application matches the day of the week with a specific   Akan Name and outputs it to the user with a               personalized message.
-- <i>Note that all inputs must be in <span>Numbers</span></i>
+<ul>
+<li>The project</li>
+- Mainly about recreation of an already creted website
+<li>The Home Page</li>
+- It has a mouse icon - On click it scrolls to the about us page.
+- also has a bouncing effect
+<li>What We Do</li>
+- On clicking the icons it displays the respective description
+<li>Portfolio</li>
+- On clicking the images it displays the infomation about the project 
+<li>Conatact Us </li>
+- On the <b>input</b> fill in the form and submitt
+- On the <b>output</b> "Thank you for being our client ,Your message has been received"
+</ul>
 
 ## Project Screenshot
 - The landing page & Fill out form<br>
-![My screenshot](images/screencapture.jpg)
+![My screenshot](css/backgrounds/mak.jpg)
 
 ## Technologies Used
 - Javascript
 - Bootsrap
 - HTML 5
 - CSS 3
+- jquery
 ## Acknowledgement
 - I would like to thank the following for their             assistance through out this project.
 <ol>
@@ -54,4 +67,6 @@
     0700222621
 ## Author
     Jonah Makori
+
+
 
