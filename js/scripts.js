@@ -1,7 +1,6 @@
 function validateForm() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
-  var key = "http://eepurl.com/gIAK4r";
   if (name == "") {
     alert("please fill in your name");
     return false;
