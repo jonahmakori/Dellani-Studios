@@ -1,19 +1,3 @@
-function validateForm() {
-  var name = document.getElementById("mce-NAME").value;
-  var email = document.getElementById("mce-EMAIL").value;
-  if (name == "") {
-    alert("please input in your name");
-    return false;
-  } else if (email == "") {
-    alert("Please input in your name and email");
-    return false;
-  } else {
-    alert(name +
-      ", we have received your message. Thank you for reaching out to us."
-    );
-  }
-  event.preventDefault();
-}
 $(document).ready(function () {
   $("#designImage").click(function () {
     $("#design").show();
@@ -105,4 +89,18 @@ $(document).ready(function () {
     }
   );
 });
-
+function validateForm() {
+  var name = document.getElementById("mce-NAME").value;
+  var email = document.getElementById("mce-EMAIL").value;
+  if (name == "" , email== "") {
+    alert("Please input name and email")
+   event.preventDefault();
+  } 
+  
+   else {
+    alert(name +
+      ", we have received your message. Thank you for reaching out to us."
+    ); event.allowDefault();
+  }
+ 
+}
