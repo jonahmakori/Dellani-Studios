@@ -10,99 +10,100 @@ function validateForm() {
   } else {
     alert(
       name +
-        ", we have received your message. Thank you for reaching out to us."
+      ", we have received your message. Thank you for reaching out to us."
     );
   }
   event.preventDefault();
 }
-$(document).ready(function() {
-  $("#designImage").click(function() {
+$(document).ready(function () {
+  $("#designImage").click(function () {
     $("#design").show();
     $("#designImage").hide("slow")
   });
-  $("#design").click(function() {
+  $("#design").click(function () {
     $("#designImage").show();
     $("#design").hide("slow")
   });
-  $("#developImage").click(function() {
+  $("#developImage").click(function () {
     $("#development").show();
     $("#developImage").hide("slow")
   });
-  $("#development").click(function() {
+  $("#development").click(function () {
     $("#developImage").show();
     $("#development").hide("slow")
   });
-  $("#productImage").click(function() {
+  $("#productImage").click(function () {
     $("#product").show();
     $("#productImage").hide("slow")
-  }); 
-  $("#product").click(function() {
+  });
+  $("#product").click(function () {
     $("#productImage").show();
     $("#product").hide("slow")
   });
 
   $("#1st-project").hover(
-    function() {
+    function () {
       $("#1st").show("2000");
     },
-    function() {
+    function () {
       $("#1st").hide("2000");
     }
   );
   $("#2nd-project").hover(
-    function() {
+    function () {
       $("#2nd").show("2000");
     },
-    function() {
+    function () {
       $("#2nd").hide("2000");
     }
   );
   $("#3rd-project").hover(
-    function() {
+    function () {
       $("#3rd").show("2000");
     },
-    function() {
+    function () {
       $("#3rd").hide("2000");
     }
   );
   $("#4th-project").hover(
-    function() {
+    function () {
       $("#4th").show("2000");
     },
-    function() {
+    function () {
       $("#4th").hide("2000");
     }
   );
   $("#5th-project").hover(
-    function() {
+    function () {
       $("#5th").show("2000");
     },
-    function() {
+    function () {
       $("#5th").hide("2000");
     }
   );
   $("#6th-project").hover(
-    function() {
+    function () {
       $("#6th").show("2000");
     },
-    function() {
+    function () {
       $("#6th").hide("2000");
     }
   );
   $("#7th-project").hover(
-    function() {
+    function () {
       $("#7th").show("2000");
     },
-    function() {
+    function () {
       $("#7th").hide("2000");
     }
   );
   $("#8th-project").hover(
-    function() {
+    function () {
       $("#8th").show("2000");
     },
-    function() {
+    function () {
       $("#8th").hide("2000");
     }
   );
 });
+
