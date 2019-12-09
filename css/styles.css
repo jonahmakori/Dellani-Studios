@@ -8,18 +8,18 @@ body{
   background-image: url("backgrounds/h_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   color: ghostwhite;
 }
 .homepage{
   padding-bottom: 0%;
 }
 .homepage>p,img,h1{ 
-  padding-top: 6.5%;
+  padding-top: 6.8%;
 }
 .mse {
-  padding-top: 12%;
-  padding-bottom: 0%;
+  padding-top: 10%;
+  padding-bottom: 4%;
   animation: mouse 3s infinite;
   top: 50vh; 
 }
@@ -88,7 +88,10 @@ input{
 background: inherit;
 width: 25%;
 }
-textarea{
+input{
+  color:white;
+}
+textarea {
 background: inherit;
 width: 50%;
 color:white;
