@@ -2,10 +2,10 @@ function validateForm() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
   if (name == "") {
-    alert("please fill in your name");
+    alert("please input in your name");
     return false;
   } else if (email == "") {
-    alert("Please fill in your name and email");
+    alert("Please input in your name and email");
     return false;
   } else {
     alert(
@@ -17,27 +17,27 @@ function validateForm() {
 }
 $(document).ready(function() {
   $("#designImage").click(function() {
-    $("#design").show("2000");
+    $("#design").show();
     $("#designImage").hide("slow")
   });
   $("#design").click(function() {
-    $("#designImage").show("2000");
+    $("#designImage").show();
     $("#design").hide("slow")
   });
   $("#developImage").click(function() {
-    $("#development").show("2000");
+    $("#development").show();
     $("#developImage").hide("slow")
   });
   $("#development").click(function() {
-    $("#developImage").show("2000");
+    $("#developImage").show();
     $("#development").hide("slow")
   });
   $("#productImage").click(function() {
-    $("#product").show("2000");
+    $("#product").show();
     $("#productImage").hide("slow")
   }); 
   $("#product").click(function() {
-    $("#productImage").show("2000");
+    $("#productImage").show();
     $("#product").hide("slow")
   });
 
