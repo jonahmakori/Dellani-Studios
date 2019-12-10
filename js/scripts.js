@@ -92,14 +92,15 @@ $(document).ready(function () {
 function validateForm() {
   var name = document.getElementById("mce-NAME").value;
   var email = document.getElementById("mce-EMAIL").value;
-  if (name == "" , email== "") {
-    alert("Please input name and email")
+  var message = document.getElementById("mce-MESSAGE").value;
+  
+  if (name == "" , email== "" ,message=="") {
+    alert("Please input Your Name, Email and Message")
    event.preventDefault();
   } 
-  
-   else {
+  else {
     alert(name +
-      ", we have received your message. Thank you for reaching out to us."
+      " We have received your message. Thank you for reaching out to us."
     ); event.allowDefault();
   }
  
